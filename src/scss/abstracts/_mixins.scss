@@ -1,9 +1,0 @@
-// src/sass/_mixins.scss
-@mixin media($query) {
-    @if $query == "<=phone" {
-      @media (max-width: 767px) {
-        @content;
-      }
-    }
-  }
-  
